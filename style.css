@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    color:white;
+    font-size: large;
+}
+.navbar{
+    background-color: black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+.nav-log{
+    padding-right:100px
+}
+.nav-log h1{
+ font-size: 34px;
+}
+.navlist{
+ display: flex;
+ justify-content: space-between;
+  width: 263px;
+}
+.navlist li{
+    list-style: none;
+}
+.navlist li a{
+    font-size: 24px;
+    text-decoration: none;
+
+}
