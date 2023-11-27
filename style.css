@@ -26,23 +26,31 @@
   display: flex;
   justify-content: center;
   gap: 7rem;
-  width: 263px;
   font-weight: bold;
+  height:5rem;
+  align-items: center;
 }
 
 .navlist li {
   list-style: none;
+
 }
 
 .navlist li a {
   font-size: 24px;
   text-decoration: none;
+  position: relative;
+  
 }
 
-.navlist li a:hover {
-  color: #24243e;
-  transform: scale(0.2);
-}
+.navlist li a:hover{
+  color: rgb(51, 250, 51);
+  padding:5px 15px ;
+  /* border-radius: 20px; */
+  /* border-bottom: 2px solid rgb(20, 243, 20); */
+  transition: all 1s ease-in-out;
+  animation: back-g 2s ease-in-out;
+  }
 
 /*  nav end here */
 /* Home here */
