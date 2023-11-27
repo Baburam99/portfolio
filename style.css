@@ -3,80 +3,153 @@
   padding: 0;
   color: white;
   font-size: large;
+  scroll-behavior: smooth;
+  /* overflow: hidden; */
+  font-family: "Arvo", sans-serif;
 }
+
 .navbar {
-  background-color: black;
+  background-color:#181a1b;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 100px;
+  height: 5rem;
+  width: 100vw;
+  position: fixed;
 }
 
 .nav-log h1 {
   font-size: 34px;
 }
+
 .navlist {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 7rem;
   width: 263px;
+  font-weight: bold;
 }
+
 .navlist li {
   list-style: none;
 }
+
 .navlist li a {
-  
   font-size: 24px;
   text-decoration: none;
 }
-.navlist li a:hover{
-  transition:all 0.3s ease-in-out;
-  color:#24243e;
-  transform:scale(0.2)
+
+.navlist li a:hover {
+  color: #24243e;
+  transform: scale(0.2);
 }
+
 /*  nav end here */
 /* Home here */
-
 #home {
-  background-image: linear-gradient(to right, #0f0c29, #302b63, #24243e);
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 500px;
+  background-image: url('shutterstock_359492192.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 900px;
 }
-.font-si {
-  font-size: 30px;
-  margin: 5px 5px;
+
+.introduction {
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+  align-items: center;
+  flex-direction: column;
 }
-.section-main {
-  font-size: 50px;
+
+.intro1 {
+  display: flex;
+  gap:10rem;
+}
+
+.ilink {
+  display: flex;
+  justify-content: space-evenly;
+  width: 350px;
+  height: 60px;
   position: relative;
-  animation:scale 5s linear 1;
-  
+  align-items: center;
+  padding: 0px 30px;
+  margin: 30px;
+
 }
-.section-main h1 b {
-  background-image: linear-gradient(to left, #2ecc71, #1195ed, #a42cd3, #eea124);
-  color: transparent;
+
+.fa-brands,
+.fab {
+  font-weight: 400;
   font-size: 40px;
-  font-weight: 600;
-  -webkit-background-clip:text;
-  background-size: 500%;
+}
+
+.intro {
  
+  color: white;
+  font-size: 75px;
+  font-weight: 900;
+  text-shadow: var(--shadow);
+}
+
+.intro b {
+  color: white;
+  font-size: 75px;
+  font-weight: 900;
+}
+.motive {
+  word-spacing: 2.9px;
+  font-size: 1.5rem;
+  text-align: center;
+  width: 752px;
+}
+
+.enjoy {
+  color: rgb(26, 239, 26);
+  font-size: 30px;
+  height: 2rem;
+}
+
+.website {
+  color: rgb(31, 226, 31);
+  font-size: 30px;
+  height: 2rem;
+}
+
+
+.aboutbutton {
+  background-color: rgb(8, 199, 8);
+  height: 4rem;
+  width: 11rem;
+  border-radius: 8px;
+}
+.aboutbutton:hover{
+  background-color:rgb(10, 154, 10);
 
 }
 
-@keyframes scale {
-  0%{
-   
-    transform: scale(0);
-  }
-  50%{
-   
-    transform: scale(1.3);
-  }
+.aboutbutton a {
+  text-decoration: none;
+}
 
-  100%{
-    transform: scale(1);
-    
-  }
+.aboutbutton a b {
+  font-size: 30px;
+  color: black;
+  text-decoration: none;
+}
+
+
+
+/* section about here */
+#about {
+  background-color: black;
+  display: flex;
+
+}
+
+.aboutmain {
+  height: 100px;
 }
