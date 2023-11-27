@@ -7,7 +7,19 @@
   /* overflow: hidden; */
   font-family: "Arvo", sans-serif;
 }
+@keyframes back-g {
+0%{
+ 
+}  
+50%{
+  border-bottom:2px solid rgb(22, 243, 22);
+  border-radius: 20px;
 
+}
+100%{
+  border-bottom: rgb(22, 243, 22);
+}
+}
 .navbar {
   background-color:#181a1b;
   display: flex;
